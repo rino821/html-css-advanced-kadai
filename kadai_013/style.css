@@ -29,25 +29,26 @@ header {
 #nav-pc a:hover {
   text-decoration: underline;
 }
+
 /* ========================
-スマートフォン用のスタイル
+スマートフォン用スタイル
 =========================== */
 @media screen and (max-width: 767px) {
   body {
     min-width: 375px;
     margin: 0;
   }
-  /* PC用ナビゲーション非表示 */
+  
   #nav-pc {
     display: none;
   }
-  /* ハンバーガーメニュー */
+  
   #menu-sp {
     float: right;
     padding: 0;
     border: none;
   }
-  /* スマホ用ナビゲーション */
+  
   #nav-sp {
     background-color: #ce933e;
     position: absolute;
@@ -66,7 +67,7 @@ header {
   #nav-sp li {
     list-style: none;
   }
-  /* ×ボタン */
+  
   #close {
     position: absolute;
     top: 20px;
@@ -74,7 +75,7 @@ header {
     background-color: transparent;
     border: none;
   }
-  /* ナビゲーションメニュー用ロゴ */
+  
   #logo-sp {
     margin: 80px 0 30px 20px;
   }
@@ -120,10 +121,10 @@ header {
   width: 100%;
   height: auto;
 }
-/* ================
+/* ==========================
 PC用スタイル
-===================*/
-@media screen and (min-width: 768px){
+=========================== */
+@media screen and (min-width: 768px) {
 #menu-sp {
   display: none;
 }
@@ -131,6 +132,6 @@ PC用スタイル
   display: none;
 }
 }
-  
+
 
 
